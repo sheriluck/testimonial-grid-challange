@@ -1,0 +1,205 @@
+
+body {
+    /* background-color: Light grayish blue hsl(210, 32%, 79%); */
+    background-color: rgb(235, 238, 240);
+    margin: 5em;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+     /* grid-auto-rows: 1fr 1fr ;  */
+     grid-auto-rows:minmax(200px auto);
+     grid-gap: 20px 40px;
+  }
+  .box{
+    /* padding: 10px 20px; */
+    padding: 10px 0px;
+    margin: 5px;
+    border-radius: 10px ;
+
+  }
+  h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 0.7;
+    color:  rgb(196, 196, 196)
+}
+    h4 {
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: rgb(196, 196, 196) ;
+        /* opacity: 0.8; */
+      }
+      .main {
+        margin-top: 20px;
+        text-align: left;
+        padding: 0 25px;    /* the main is for all boxes inside setting*/
+      
+      }
+      .main p {               /* this id for main  1st  para setting */
+        padding-bottom: 25px;
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color:rgb(196, 196, 196);
+        opacity: 0.8;
+      } 
+      .item {
+        padding: 25px; /* this is padding for 1 2 and 5the h4  and pic */
+        /* color: #fff;  */  color: rgb(136, 12, 12);
+        font-family: sans-serif;
+        text-align: center;
+        border-radius: 5px;  
+      }
+      
+      
+.wrapper > div:nth-child(1){
+    background-color: rgb(132, 16, 240);
+}
+.wrapper > div:nth-child(2){ 
+    background-color: rgb(106, 106, 148);
+}
+.wrapper > div:nth-child(3){
+    background-color:white;
+}
+.wrapper > div:nth-child(4){
+    background-color: white;
+}
+.wrapper > div:nth-child(5){
+    background-color: rgb(14, 7, 31);
+}
+.wrapper > div:nth-child(6){
+    background-color: yellow;
+}
+
+.Daniel{
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+.danial--img {
+    margin-top: 10px;  
+    display: flex;
+    gap: 10px;
+  }
+  .danial--img img {
+    width: 45px;
+    border-radius: 50px;
+  }
+  
+  .danial--img .img--content {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+  }
+  
+.Jonathan{
+    grid-column: 3/4;
+
+}
+.jon--img {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .jon--img img {
+    width: 45px;
+    border-radius: 50px;
+  }
+  
+  .jon--img .img--content {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+  }
+
+.Kira{
+    grid-column:4/5 ;
+    grid-row: 1/3;
+    /* color: chocolate; */
+    }
+    .kira--img {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+      }
+      .kira--img img {
+        width: 45px;
+        border-radius: 50px;
+      }
+      
+      .kira--img .img--content {
+        justify-self: center;
+        align-self: center;
+        text-align: left;
+      }
+.kira--main p{
+    color: rgba(85, 84, 84, 0.822)
+    /* color: chocolate; */
+}
+.kira--main h4{
+    color:rgba(22, 21, 26, 0.938);
+}
+
+.Jeanette{
+    grid-column: 1;
+
+}
+.jean--img {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .jean--img img {
+    width: 45px;
+    border-radius: 50px;
+  }
+  
+  .jean--img .img--content {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+  }
+  /* .jean--img .img--content h3 { 
+    color: var(--D--grayish--blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+  }
+  .jean--img .img--content p {
+    color: var(--D--grayish--blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+  }*/
+  .jean--main h4 {
+    color:rgba(43, 41, 53, 0.938);
+  }
+  .jean--main p {
+    color: rgba(85, 84, 84, 0.822);
+  }
+  
+.Patrick{
+    grid-column: 2/4;
+
+}
+.pat--img {
+    margin-top: 10px;
+    /* display: flex; */
+    gap: 10px;
+  }
+  .pat--img img {
+    width: 45px;
+    border-radius: 50px;
+  }
+  
+  .pat--img .img--content {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+  }
+.footer{
+    grid-column: 1/5;
+
+}
