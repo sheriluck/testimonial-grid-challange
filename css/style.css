@@ -137,13 +137,27 @@ body {
         text-align: left;
       }
 .kira--main p{
-    color: rgba(85, 84, 84, 0.822)
-    /* color: chocolate; */
+    color: rgba(85, 84, 84, 0.822) ;
+   /* color: rgba(85, 84, 84, 0.822) */
+
 }
 .kira--main h4{
     color:rgba(22, 21, 26, 0.938);
+
+}
+.kira--img .img--content p{
+    color:rgba(85, 84, 84, 0.822);
+}
+.kira--img .img--content h3{
+    color:rgba(85, 84, 84, 0.822);
 }
 
+/*.img--content  p{
+    color: rgba(85, 84, 84, 0.822) ;
+}
+ .img--content  h3{      how to change the h3 color of kira and jeanette 
+    color: rgba(85, 84, 84, 0.822) ;
+ } */
 .Jeanette{
     grid-column: 1;
 
@@ -163,16 +177,18 @@ body {
     align-self: center;
     text-align: left;
   }
-  /* .jean--img .img--content h3 { 
-    color: var(--D--grayish--blue);
+  .jean--img .img--content h3 { 
+    color:rgba(46, 44, 44, 0.822);    /*how to chage the color of jean h3 and p its not working
+    /* color: var(--D--grayish--blue); 
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 600;*/
   }
   .jean--img .img--content p {
-    color: var(--D--grayish--blue);
+       color:rgba(52, 54, 53, 0.822);
+    /*color: var(--D--grayish--blue);
     font-family: var(--font-family);
-    font-weight: 600;
-  }*/
+    font-weight: 600;*/
+  }
   .jean--main h4 {
     color:rgba(43, 41, 53, 0.938);
   }
@@ -201,5 +217,8 @@ body {
   }
 .footer{
     grid-column: 1/5;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
 
 }
